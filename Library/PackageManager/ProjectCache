@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637714765229528130
-    m_Hash: 227180536
+      ticks: 637719428603820867
+    m_Hash: 3968129095
   m_LockFileStatus:
     m_FilePath: C:/Users/Bounce/Roguelike Game/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637714765951815439
-    m_Hash: 3156836685
+      ticks: 637719428605744974
+    m_Hash: 1099668395
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -1160,10 +1160,12 @@ m_ResolvedPackages:
     - 3.0.5
     - 3.0.6
     - 3.2.0-pre.1
+    - 3.2.0-pre.2
     - 4.0.0-pre.1
     compatible:
     - 3.0.6
     - 3.2.0-pre.1
+    - 3.2.0-pre.2
     verified: 3.0.6
   dependencies:
   - name: com.unity.ugui
@@ -1204,12 +1206,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 3.0.6
     nextVersion: 
-- packageId: com.unity.timeline@1.5.6
+- packageId: com.unity.timeline@1.5.7
   testable: 0
   isDirectDependency: 1
-  version: 1.5.6
+  version: 1.5.7
   source: 1
-  resolvedPath: C:\Users\Bounce\Roguelike Game\Library\PackageCache\com.unity.timeline@1.5.6
+  resolvedPath: C:\Users\Bounce\Roguelike Game\Library\PackageCache\com.unity.timeline@1.5.7
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1292,6 +1294,7 @@ m_ResolvedPackages:
     - 1.6.1
     - 1.6.2
     - 1.6.3
+    - 1.7.0-pre.1
     compatible:
     - 1.5.6
     - 1.5.7
@@ -1302,6 +1305,7 @@ m_ResolvedPackages:
     - 1.6.1
     - 1.6.2
     - 1.6.3
+    - 1.7.0-pre.1
     verified: 1.5.7
   dependencies:
   - name: com.unity.modules.director
@@ -1339,13 +1343,13 @@ m_ResolvedPackages:
   entitlements:
     isAllowed: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637613662510000000
+  datePublishedTicks: 637704360510000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-    revision: bba45362fa74fde39bfa14d05688da527254b39f
+    revision: b0c6687b4bae7608c23b04edd20e0b8002476c6f
     path: 
   unityLifecycle:
     version: 1.5.6
@@ -3379,12 +3383,14 @@ m_ResolvedPackages:
     - 1.1.0-pre.8
     - 1.1.0-pre.9
     - 1.1.0-pre.10
+    - 1.1.0-pre.11
     compatible:
     - 1.0.1
     - 1.1.0-pre.7
     - 1.1.0-pre.8
     - 1.1.0-pre.9
     - 1.1.0-pre.10
+    - 1.1.0-pre.11
     verified: 1.0.1
   dependencies:
   - name: com.unity.modules.unitywebrequest
@@ -3436,8 +3442,12 @@ m_ResolvedPackages:
   status: 4
   errors: []
   versions:
-    all: []
-    compatible: []
+    all:
+    - 0.1.5-preview
+    - 0.1.6-preview
+    compatible:
+    - 0.1.5-preview
+    - 0.1.6-preview
     verified: 
   dependencies: []
   resolvedDependencies: []
@@ -3456,7 +3466,7 @@ m_ResolvedPackages:
   entitlements:
     isAllowed: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 636898921580000000
   documentationUrl: 
   hasRepository: 0
   repository:

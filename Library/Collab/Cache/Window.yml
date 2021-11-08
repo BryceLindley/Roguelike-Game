@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/_Udemy Roguelike/Scripts/GunPickup.cs
+    - Assets/Prefabs/Weapons/Pistol.prefab
+    - Assets/Scenes/Level Test.unity
     - 
-    m_Values: 0101
-  RevisionSummary: Gun Pickups
+    m_Values: 000000
+  RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
   HistoryPageNumber: 0

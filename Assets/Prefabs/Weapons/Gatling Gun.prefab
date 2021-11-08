@@ -103,6 +103,8 @@ MonoBehaviour:
   timeBetweenShots: 0.1
   weaponName: Gatling Gun
   gunUI: {fileID: 21300006, guid: f72804754a2106a4884d758772ef2a02, type: 3}
+  gunShopSprite: {fileID: 21300020, guid: 48d85d1ef51430e42b6aef57f02c863d, type: 3}
+  itemCost: 125
 --- !u!1 &7139467722579599512
 GameObject:
   m_ObjectHideFlags: 0

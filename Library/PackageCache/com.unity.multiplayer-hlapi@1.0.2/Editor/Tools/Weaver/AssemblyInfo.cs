@@ -12,8 +12,8 @@ using System.Runtime.CompilerServices;
 [assembly: AssemblyProduct("Unity.UNetWeaver")]
 [assembly: AssemblyCopyright("Copyright © 2014")]
 [assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-[assembly: InternalsVisibleTo("Assembly-CSharp-Editor-testable")]
+//[assembly: AssemblyCulture("")]
+//[assembly: InternalsVisibleTo("Assembly-CSharp-Editor-testable")]
 
 // The assembly version has the format "{Major}.{Minor}.{Build}.{Revision}".
 // The form "{Major}.{Minor}.*" will automatically update the build and revision,
