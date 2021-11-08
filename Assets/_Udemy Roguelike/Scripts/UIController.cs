@@ -11,7 +11,7 @@ public class UIController : MonoBehaviour
     public Slider healthSlider;
     public Text healthText;
     public GameObject deathScreen;
-    public GameObject pauseMenu;
+    public GameObject pauseMenu, mapDisplay, bigMapText;
     public Image fadeScreen;
     public float fadeSpeed = .50F;
     private Color fadeWhite;
@@ -22,6 +22,9 @@ public class UIController : MonoBehaviour
 
     private bool fadeIn, fadeOut;
     public string newGameScene, mainMenuScene;
+
+    public Image currentGun;
+    public Text gunText;
     
 
 

@@ -9,29 +9,44 @@ public class EnemyController : MonoBehaviour
     public float moveSpeed;
     public Animator enemyAnim;
 
-    public float rangeToChasePlayer;
+    
     private Vector3 moveDirection;
     public int health = 150;
     public GameObject[] deathSplatters;
-
-
+    [Header("Chase")]
+    public bool shouldChasePlayer;
+    public float rangeToChasePlayer;
+    [Header("Run Away")]
+    public bool shouldRunAway;
+    public float runAwayRange;
+    [Header("Shoot Player")]
     public bool shouldShoot;
     public GameObject bullet;
     public Transform firePoint;
     public float fireRate;
     private float fireCounter;
-
     public float shootRange;
     public SpriteRenderer theBody;
-
     public bool shouldDropItem;
     public GameObject[] itemsToDrop;
     public float itemDropPercent;
+    [Header("Wandering")]
+    public bool shouldWander;
+    public float wanderLength, pauseLength;
+    private float wanderCounter, pauseCounter;
+    private Vector3 wanderDirection;
+    [Header("Patrolling")]
+    public bool shouldPatrol;
+    public Transform[] patrolPoints;
+    private int currentPatrolPoint;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        if(shouldWander)
+        {
+            pauseCounter = Random.Range(pauseLength * .50F, pauseLength * 1.50F);
+        }
     }
 
     // Update is called once per frame
@@ -40,14 +55,59 @@ public class EnemyController : MonoBehaviour
         // Check if Objects are on Screen by checking if Sprite Renderer is on Screen by creating a reference
         if (theBody.isVisible && PlayerController.instance.gameObject.activeInHierarchy)
         {
-            if (Vector3.Distance(transform.position, PlayerController.instance.transform.position) < rangeToChasePlayer)
+            if (Vector3.Distance(transform.position, PlayerController.instance.transform.position) < rangeToChasePlayer  && shouldChasePlayer)
             {
                 moveDirection = PlayerController.instance.transform.position - transform.position;
+            } else
+            {
+                if(shouldWander)
+                {
+                    if(wanderCounter > 0)
+                    {
+                        wanderCounter -= Time.deltaTime;
+
+                        //move the enemy
+                        moveDirection = wanderDirection;
+
+                        if(wanderCounter <= 0)
+                        {
+                            pauseCounter = Random.Range(pauseLength * .50F, pauseLength * 1.50F);
+                        }
+                    }
+                }
+
+                if(pauseCounter > 0)
+                {
+                    pauseCounter -= Time.deltaTime;
+                    if(pauseCounter <= 0)
+                    {
+                        wanderCounter = Random.Range(wanderLength * .35F, wanderLength * 1.00F);
+                        wanderDirection = new Vector3(Random.Range(-1.0F, 1.0F), Random.Range(-1.0F, 1.0F), 0F);
+                    }
+                }
+
+                if (shouldPatrol)
+                {
+                    moveDirection = patrolPoints[currentPatrolPoint].position - transform.position;
+                    if(Vector3.Distance(transform.position, patrolPoints[currentPatrolPoint].position) < 0.2F)
+                    {
+                        currentPatrolPoint++;
+                        if(currentPatrolPoint >= patrolPoints.Length)
+                        {
+                            currentPatrolPoint = 0;
+                        }
+                    }
+                }
             }
-            else
+
+            if(shouldRunAway && Vector3.Distance(transform.position, PlayerController.instance.transform.position) < runAwayRange)
+            {
+                moveDirection = transform.position - PlayerController.instance.transform.position;
+            }
+            /* else
             {
                 moveDirection = Vector3.zero;
-            }
+            } */
 
             moveDirection.Normalize();
 

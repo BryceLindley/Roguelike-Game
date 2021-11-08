@@ -64,18 +64,21 @@
     <Compile Include="Assets\_Udemy Roguelike\Scripts\DamagePlayer.cs" />
     <Compile Include="Assets\_Udemy Roguelike\Scripts\LevelManager.cs" />
     <Compile Include="Assets\_Udemy Roguelike\Scripts\PlayerBullet.cs" />
+    <Compile Include="Assets\_Udemy Roguelike\Scripts\Guns.cs" />
     <Compile Include="Assets\_Udemy Roguelike\Scripts\HealthPickup.cs" />
     <Compile Include="Assets\_Udemy Roguelike\Scripts\SpritesSortOrder.cs" />
     <Compile Include="Assets\_Udemy Roguelike\Scripts\EnemyBullet.cs" />
     <Compile Include="Assets\_Udemy Roguelike\Scripts\Shop.cs" />
     <Compile Include="Assets\_Udemy Roguelike\Scripts\EnemyController.cs" />
+    <Compile Include="Assets\_Udemy Roguelike\Scripts\LevelGenerator.cs" />
     <Compile Include="Assets\_Udemy Roguelike\Scripts\PlayerController.cs" />
     <Compile Include="Assets\_Udemy Roguelike\Scripts\PickupCoin.cs" />
     <Compile Include="Assets\_Udemy Roguelike\Scripts\Breakables.cs" />
     <Compile Include="Assets\_Udemy Roguelike\Scripts\AudioManager.cs" />
     <Compile Include="Assets\_Udemy Roguelike\Scripts\LevelExit.cs" />
     <Compile Include="Assets\_Udemy Roguelike\Scripts\MainMenu.cs" />
-    <Compile Include="Assets\_Udemy Roguelike\Scripts\LevelGenerator.cs" />
+    <Compile Include="Assets\_Udemy Roguelike\Scripts\GunPickup.cs" />
+    <Compile Include="Assets\_Udemy Roguelike\Scripts\Chest.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

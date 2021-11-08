@@ -87,6 +87,9 @@ MonoBehaviour:
   - {fileID: 5060311608619019662, guid: 685e8ce2bff2ac945afd2199ba7453e0, type: 3}
   - {fileID: 4655156163251585414, guid: dc1e809688c4ca1459b0fcad6bc89844, type: 3}
   - {fileID: 2310864737108868338, guid: ff020c431d79f2d43a9501f9b000f927, type: 3}
+  runAwayRange: 0
+  shouldChasePlayer: 0
+  shouldRunAway: 0
   shouldShoot: 1
   bullet: {fileID: 714711323553482012, guid: 96a56eec806613447853326f2c66b90c, type: 3}
   firePoint: {fileID: 6742779321065563980}
@@ -99,7 +102,7 @@ MonoBehaviour:
   - {fileID: 7355362638296555458, guid: c6be10c823b6420438be11a387fb7570, type: 3}
   - {fileID: 7355362638296555458, guid: c6be10c823b6420438be11a387fb7570, type: 3}
   - {fileID: 7355362638296555458, guid: c6be10c823b6420438be11a387fb7570, type: 3}
-  itemDropPercent: 100
+  itemDropPercent: 10
 --- !u!50 &4939447876169012518
 Rigidbody2D:
   serializedVersion: 4
@@ -279,7 +282,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7001876599974116489}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.39, y: 0.7, z: 0}
+  m_LocalPosition: {x: -0.628, y: -0.144, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4939447876169012519}

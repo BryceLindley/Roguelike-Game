@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Prefabs/Level Essentials/Managers.prefab
+    - Assets/_Udemy Roguelike/Scripts/GunPickup.cs
     - 
     m_Values: 0101
-  RevisionSummary: Upgrade shops
+  RevisionSummary: Gun Pickups
   ChangesSearchValue: 
   SelectedHistoryRevision: 
   HistoryPageNumber: 0
