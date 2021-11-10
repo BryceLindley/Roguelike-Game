@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Title Menu.unity
     guid: 1ecc1d815fa1c1747a0bbd876667dc37
   - enabled: 1
+    path: Assets/Scenes/Character Select.unity
+    guid: 77a38f34988152f4bbeefc7ee2b9b22c
+  - enabled: 1
     path: Assets/Scenes/Test.unity
     guid: f4b380e2c4c05714c9c41254c5937598
   - enabled: 1
@@ -17,4 +20,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Victory.unity
     guid: 99d4276439e12c947b2dc38fe63a0beb
+  - enabled: 1
+    path: Assets/Scenes/Level 1.unity
+    guid: 36cd012418a0b8846830655eaa424612
+  - enabled: 1
+    path: Assets/Scenes/Level 2.unity
+    guid: fe4309b3c8afb8e4d918de371a4579a9
+  - enabled: 1
+    path: Assets/Scenes/Level 3.unity
+    guid: dbe10b715ec955145839530677975b2c
   m_configObjects: {}

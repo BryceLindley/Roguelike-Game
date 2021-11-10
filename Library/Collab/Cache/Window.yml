@@ -14,10 +14,133 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Prefabs/Weapons/Pistol.prefab
-    - Assets/Scenes/Level Test.unity
+    - Assets/Scenes/Character Select.unity
+    - Assets/Scenes/Character Select.unity.meta
+    - Assets/Scenes/Level 1.unity
+    - Assets/Scenes/Title Menu.unity
+    - Assets/Tilesets/Dungeon1.1.prefab
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Apple.png
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Apple.png.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background.png
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background.png.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/BackgroundTanTan.png
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/BackgroundTanTan.png.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_1.asset
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_1.asset.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_10.asset
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_10.asset.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_11.asset
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_11.asset.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_12.asset
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_12.asset.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_13.asset
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_13.asset.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_14.asset
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_14.asset.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_15.asset
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_15.asset.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_16.asset
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_16.asset.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_17.asset
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_17.asset.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_18.asset
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_18.asset.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_19.asset
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_19.asset.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_2.asset
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_2.asset.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_20.asset
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_20.asset.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_21.asset
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_21.asset.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_22.asset
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_22.asset.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_23.asset
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_23.asset.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_24.asset
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_24.asset.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_25.asset
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_25.asset.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_26.asset
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_26.asset.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_27.asset
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_27.asset.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_28.asset
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_28.asset.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_29.asset
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_29.asset.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_3.asset
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_3.asset.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_30.asset
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_30.asset.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_31.asset
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_31.asset.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_32.asset
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_32.asset.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_33.asset
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_33.asset.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_34.asset
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_34.asset.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_35.asset
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_35.asset.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_36.asset
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_36.asset.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_37.asset
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_37.asset.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_38.asset
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_38.asset.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_39.asset
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_39.asset.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_4.asset
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_4.asset.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_40.asset
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_40.asset.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_41.asset
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_41.asset.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_42.asset
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_42.asset.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_43.asset
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_43.asset.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_44.asset
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_44.asset.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_45.asset
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_45.asset.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_46.asset
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_46.asset.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_47.asset
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_47.asset.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_48.asset
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_48.asset.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_49.asset
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_49.asset.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_5.asset
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_5.asset.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_6.asset
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_6.asset.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_7.asset
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_7.asset.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_8.asset
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_8.asset.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_9.asset
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Background_9.asset.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/CharacterCreation.png
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/CharacterCreation.png.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/DirtCaveSides.png
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/DirtCaveSides.png.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/DirtGrass Background.asset
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/DirtGrass Background.asset.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/DirtGrass Background.prefab
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/DirtGrass Background.prefab.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Explosions.png
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/Explosions.png.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/PizzaLavaTiles.png
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/PizzaLavaTiles.png.meta
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/TopDownGrassTileset.png
+    - Assets/_Udemy Roguelike/Art/AsespriteFiles/TopDownGrassTileset.png.meta
+    - Assets/_Udemy Roguelike/Tilesets/Dungeon 4/DungeonTiles-Sheet-Sheet-Sheet.png.meta
+    - ProjectSettings/EditorBuildSettings.asset
     - 
-    m_Values: 000000
+    m_Values: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

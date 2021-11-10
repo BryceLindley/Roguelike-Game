@@ -1,15 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>8.0</LangVersion>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <ProjectGuid>{8F8EF3E4-C1BA-6A46-3ED9-8872E2B765CC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -54,34 +53,35 @@
     <UnityVersion>2021.1.26f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Assets\_Udemy Roguelike\Scripts\Room.cs" />
-    <Compile Include="Assets\_Udemy Roguelike\Scripts\UIController.cs" />
-    <Compile Include="Assets\_Udemy Roguelike\Scripts\BrokenPieces.cs" />
-    <Compile Include="Assets\_Udemy Roguelike\Scripts\RoomCenter.cs" />
-    <Compile Include="Assets\_Udemy Roguelike\Scripts\CameraController.cs" />
-    <Compile Include="Assets\_Udemy Roguelike\Scripts\VictoryScreen.cs" />
-    <Compile Include="Assets\_Udemy Roguelike\Scripts\PlayerHealthController.cs" />
-    <Compile Include="Assets\_Udemy Roguelike\Scripts\Fade.cs" />
-    <Compile Include="Assets\_Udemy Roguelike\Scripts\DamagePlayer.cs" />
-    <Compile Include="Assets\_Udemy Roguelike\Scripts\LevelManager.cs" />
-    <Compile Include="Assets\_Udemy Roguelike\Scripts\PlayerBullet.cs" />
-    <Compile Include="Assets\_Udemy Roguelike\Scripts\Guns.cs" />
-    <Compile Include="Assets\_Udemy Roguelike\Scripts\HealthPickup.cs" />
-    <Compile Include="Assets\_Udemy Roguelike\Scripts\SpritesSortOrder.cs" />
-    <Compile Include="Assets\_Udemy Roguelike\Scripts\EnemyBullet.cs" />
-    <Compile Include="Assets\_Udemy Roguelike\Scripts\GunPickup.cs" />
-    <Compile Include="Assets\_Udemy Roguelike\Scripts\Shop.cs" />
-    <Compile Include="Assets\_Udemy Roguelike\Scripts\EnemyController.cs" />
-    <Compile Include="Assets\_Udemy Roguelike\Scripts\LevelGenerator.cs" />
-    <Compile Include="Assets\_Udemy Roguelike\Scripts\PlayerController.cs" />
-    <Compile Include="Assets\_Udemy Roguelike\Scripts\PickupCoin.cs" />
-    <Compile Include="Assets\_Udemy Roguelike\Scripts\Breakables.cs" />
-    <Compile Include="Assets\_Udemy Roguelike\Scripts\AudioManager.cs" />
-    <Compile Include="Assets\_Udemy Roguelike\Scripts\LevelExit.cs" />
-    <Compile Include="Assets\_Udemy Roguelike\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\Room.cs" />
+    <Compile Include="Assets\Scripts\UIController.cs" />
+    <Compile Include="Assets\Scripts\BrokenPieces.cs" />
+    <Compile Include="Assets\Scripts\RoomCenter.cs" />
+    <Compile Include="Assets\Scripts\CharacterTracker.cs" />
+    <Compile Include="Assets\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\VictoryScreen.cs" />
+    <Compile Include="Assets\Scripts\PlayerHealthController.cs" />
+    <Compile Include="Assets\Scripts\Fade.cs" />
+    <Compile Include="Assets\Scripts\DamagePlayer.cs" />
+    <Compile Include="Assets\Scripts\LevelManager.cs" />
+    <Compile Include="Assets\Scripts\PlayerBullet.cs" />
+    <Compile Include="Assets\Scripts\Chest.cs" />
+    <Compile Include="Assets\Scripts\Guns.cs" />
+    <Compile Include="Assets\Scripts\HealthPickup.cs" />
+    <Compile Include="Assets\Scripts\SpritesSortOrder.cs" />
+    <Compile Include="Assets\Scripts\EnemyBullet.cs" />
+    <Compile Include="Assets\Scripts\GunPickup.cs" />
+    <Compile Include="Assets\Scripts\Shop.cs" />
+    <Compile Include="Assets\Scripts\EnemyController.cs" />
+    <Compile Include="Assets\Scripts\LevelGenerator.cs" />
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\PickupCoin.cs" />
+    <Compile Include="Assets\Scripts\Breakables.cs" />
+    <Compile Include="Assets\Scripts\AudioManager.cs" />
+    <Compile Include="Assets\Scripts\LevelExit.cs" />
+    <Compile Include="Assets\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\CharacterSelector.cs" />
+    <Compile Include="Assets\Scripts\CharacterSelectManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

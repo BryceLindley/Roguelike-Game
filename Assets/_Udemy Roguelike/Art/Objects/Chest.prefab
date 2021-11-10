@@ -117,6 +117,9 @@ MonoBehaviour:
   isWeapon: 0
   itemCost: 0
   healthUpgradeAmount: 0
+  potentialGuns: []
+  gunSprite: {fileID: 0}
+  infoText: {fileID: 0}
 --- !u!114 &6979394218391370112
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -130,7 +130,7 @@ MonoBehaviour:
   bulletToFire: {fileID: 7373336767398303964, guid: 51defd95978c1ee4b96c9768a4c989b4,
     type: 3}
   firePoint: {fileID: 1444989356502999910}
-  timeBetweenShots: 1.5
+  timeBetweenShots: 0.28
   weaponName: Deagle
   gunUI: {fileID: 21300000, guid: f72804754a2106a4884d758772ef2a02, type: 3}
   gunShopSprite: {fileID: 21300000, guid: 48d85d1ef51430e42b6aef57f02c863d, type: 3}
