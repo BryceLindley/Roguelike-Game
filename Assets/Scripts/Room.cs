@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class Room : MonoBehaviour
 {
-    public bool closeWhenEntered, openWhenEnemiesCleared;
+    public bool closeWhenEntered;
 
     public GameObject[] doors;
 
-    public List<GameObject> enemies = new List<GameObject>();
+  
     [HideInInspector]
     public bool roomActive;
 
@@ -19,8 +19,8 @@ public class Room : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {           // .Count is used for List instead of .Length for Arrays
+    void Update() { }
+   /* {           // .Count is used for List instead of .Length for Arrays
          if (enemies.Count > 0 && roomActive && openWhenEnemiesCleared)
          {
 
@@ -44,8 +44,8 @@ public class Room : MonoBehaviour
                  }
              }
          }
-
-    }
+        */
+    
     private void OnTriggerEnter2D(Collider2D other)
     {
 

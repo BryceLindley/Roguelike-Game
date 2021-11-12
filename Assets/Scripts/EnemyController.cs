@@ -165,6 +165,8 @@ public class EnemyController : MonoBehaviour
 
             Instantiate(deathSplatters[selectedSplatter], transform.position, Quaternion.Euler(0f, 0f, rotation * 90f));
 
+           
+
             if (shouldDropItem)
             {
                 float dropChance = Random.Range(0f, 100f);

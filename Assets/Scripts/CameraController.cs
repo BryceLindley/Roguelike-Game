@@ -14,10 +14,15 @@ public class CameraController : MonoBehaviour
 
     private bool bigMapActive;
 
+    public bool bossRoom;
+
     // Start is called before the first frame update
     void Start()
     {
-
+        if (bossRoom)
+        {
+            target = PlayerController.instance.transform;
+        }
     }
 
     private void Awake()
@@ -34,7 +39,7 @@ public class CameraController : MonoBehaviour
             transform.position = Vector3.MoveTowards(transform.position, new Vector3(target.position.x, target.position.y, transform.position.z), moveSpeed * Time.deltaTime);
         }
 
-        if(Input.GetKeyDown(KeyCode.M))
+        if(Input.GetKeyDown(KeyCode.M) && !bossRoom)
         {
             if(!bigMapActive)
             {

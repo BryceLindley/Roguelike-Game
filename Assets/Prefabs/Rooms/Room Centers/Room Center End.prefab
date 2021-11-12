@@ -2048,7 +2048,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   openWhenEnemiesCleared: 0
   enemies: []
-  theRoom: {fileID: 4360742025880210038, guid: f2c5c3d5f2690d949a50d9e4cfb18e73, type: 3}
+  theRoom: {fileID: 0}
 --- !u!1001 &3375941486185028669
 PrefabInstance:
   m_ObjectHideFlags: 0

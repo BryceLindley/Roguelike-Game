@@ -8,11 +8,12 @@ public class PlayerBullet : MonoBehaviour
     public Rigidbody2D bulletRB;
     public GameObject impactEffect;
     public int damageToGive = 50;
+    Animation anim;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        anim = gameObject.GetComponent<Animation>();
     }
 
     // Update is called once per frame
@@ -29,7 +30,13 @@ public class PlayerBullet : MonoBehaviour
         Destroy(gameObject);
 
         AudioManager.instance.PlaySFX("Impact");
+        
 
+        if (gameObject == BossController.instance.gameObject.activeInHierarchy)
+        {
+            BossController.instance.TakeDamage(damageToGive);
+            Instantiate(BossController.instance.hitEffect, transform.position, transform.rotation);
+        }
         if (gameObject != null){
             other.GetComponent<EnemyController>().LosingHealth(damageToGive);
         } 
