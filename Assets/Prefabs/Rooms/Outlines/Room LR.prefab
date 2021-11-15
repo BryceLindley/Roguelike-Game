@@ -2177,7 +2177,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1500459039
   m_SortingLayer: -5
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -2437,7 +2437,7 @@ SpriteRenderer:
   m_Size: {x: 16, y: 8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &7213434845610905783
@@ -2453,12 +2453,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   closeWhenEntered: 1
-  openWhenEnemiesCleared: 1
   doors:
   - {fileID: 7640455912131633624}
   - {fileID: 3358081362925067638}
-  enemies:
-  - {fileID: 2997383562655399343, guid: 82a633a963007f34fbe13864d983b0ac, type: 3}
   roomActive: 0
 --- !u!1001 &908714585021150355
 PrefabInstance:

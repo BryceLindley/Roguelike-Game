@@ -2499,7 +2499,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1500459039
   m_SortingLayer: -5
-  m_SortingOrder: 1
+  m_SortingOrder: 4
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -2972,12 +2972,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   closeWhenEntered: 1
-  openWhenEnemiesCleared: 1
   doors:
   - {fileID: 6189000268923396400}
-  enemies:
-  - {fileID: 0}
-  - {fileID: 0}
   roomActive: 0
 --- !u!1001 &3958089739399636842
 PrefabInstance:

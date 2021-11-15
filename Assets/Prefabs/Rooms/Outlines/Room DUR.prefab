@@ -89,7 +89,7 @@ SpriteRenderer:
   m_Size: {x: 16, y: 8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &767333034208426312
@@ -105,16 +105,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   closeWhenEntered: 1
-  openWhenEnemiesCleared: 1
   doors:
   - {fileID: 7805109887557904523}
   - {fileID: 5607073617359019021}
   - {fileID: 8335920839580244900}
-  enemies:
-  - {fileID: 1088142697647217983}
-  - {fileID: 7080197360818410127}
-  - {fileID: 7648178467648850503}
-  - {fileID: 5206940156438729583}
   roomActive: 0
 --- !u!1 &2465910398600764468
 GameObject:
@@ -2365,7 +2359,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1500459039
   m_SortingLayer: -5
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -2431,80 +2425,74 @@ CompositeCollider2D:
   m_ColliderPaths:
   - m_Collider: {fileID: 5528751231646592866}
     m_ColliderPaths:
-    - - X: -10000100
-        Y: -40000100
-      - X: -80000041
-        Y: -40000100
-      - X: -80000100
-        Y: -40000041
-      - X: -80000100
-        Y: 40000041
-      - X: -80000041
-        Y: 40000100
-      - X: -10000100
-        Y: 40000100
-      - X: -10000100
-        Y: 50000000
-      - X: -90000000
-        Y: 50000000
-      - X: -90000000
-        Y: -50000000
-      - X: -10000100
-        Y: -50000000
     - - X: 90000000
         Y: 50000000
-      - X: 10000100
+      - X: 10000000
         Y: 50000000
-      - X: 10000100
-        Y: 40000100
-      - X: 80000041
-        Y: 40000100
-      - X: 80000100
-        Y: 40000041
-      - X: 80000100
-        Y: 10000100
+      - X: 10000000
+        Y: 40000000
+      - X: 80000000
+        Y: 40000000
+      - X: 80000000
+        Y: 10000000
       - X: 90000000
-        Y: 10000100
+        Y: 10000000
+    - - X: -10000000
+        Y: -40000000
+      - X: -80000000
+        Y: -40000000
+      - X: -80000000
+        Y: 40000000
+      - X: -10000000
+        Y: 40000000
+      - X: -10000000
+        Y: 50000000
+      - X: -90000000
+        Y: 50000000
+      - X: -90000000
+        Y: -50000000
+      - X: -10000000
+        Y: -50000000
     - - X: 90000000
-        Y: -10000100
-      - X: 80000100
-        Y: -10000100
-      - X: 80000100
+        Y: -10000000
+      - X: 80000000
+        Y: -10000000
+      - X: 80000000
         Y: -40000000
       - X: 90000000
         Y: -40000000
     - - X: 80000000
-        Y: -40000100
-      - X: 10000100
-        Y: -40000100
-      - X: 10000100
+        Y: -40000000
+      - X: 10000000
+        Y: -40000000
+      - X: 10000000
         Y: -50000000
       - X: 80000000
         Y: -50000000
   m_CompositePaths:
     m_Paths:
-    - - {x: 8.999997, y: 1.00001}
+    - - {x: 8.999997, y: 1}
       - {x: 8.999997, y: 5}
-      - {x: 1.00001, y: 4.999997}
-      - {x: 1.0000129, y: 4.00001}
-      - {x: 8.00001, y: 4.0000014}
-      - {x: 8.000013, y: 1.00001}
-    - - {x: -1.0000129, y: -5}
-      - {x: -1.0000129, y: -4.00001}
-      - {x: -8.00001, y: -4.0000014}
-      - {x: -8.000002, y: 4.00001}
-      - {x: -1.00001, y: 4.000013}
-      - {x: -1.0000129, y: 5}
+      - {x: 1, y: 4.999997}
+      - {x: 1.0000029, y: 4}
+      - {x: 8, y: 3.9999971}
+      - {x: 8.000003, y: 1}
+    - - {x: -1.0000029, y: -5}
+      - {x: -1.0000029, y: -4}
+      - {x: -8, y: -3.9999971}
+      - {x: -7.9999967, y: 4}
+      - {x: -1, y: 4.000003}
+      - {x: -1.0000029, y: 5}
       - {x: -9, y: 4.999997}
       - {x: -8.999997, y: -5}
     - - {x: 8.999997, y: -4}
-      - {x: 8.999997, y: -1.00001}
-      - {x: 8.00001, y: -1.0000129}
-      - {x: 8.000013, y: -4}
+      - {x: 8.999997, y: -1}
+      - {x: 8, y: -1.0000029}
+      - {x: 8.000003, y: -4}
     - - {x: 7.9999967, y: -5}
-      - {x: 7.9999967, y: -4.00001}
-      - {x: 1.00001, y: -4.000013}
-      - {x: 1.0000129, y: -5}
+      - {x: 7.9999967, y: -4}
+      - {x: 1, y: -4.000003}
+      - {x: 1.0000029, y: -5}
   m_VertexDistance: 0.0005
   m_OffsetDistance: 0.000005
 --- !u!1 &9087290900788777839
@@ -2621,12 +2609,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 82a633a963007f34fbe13864d983b0ac, type: 3}
---- !u!1 &1088142697647217983 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2997383562655399343, guid: 82a633a963007f34fbe13864d983b0ac,
-    type: 3}
-  m_PrefabInstance: {fileID: 2774503778300846224}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1088142697647217977 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2997383562655399337, guid: 82a633a963007f34fbe13864d983b0ac,
@@ -2702,12 +2684,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 82a633a963007f34fbe13864d983b0ac, type: 3}
---- !u!1 &7648178467648850503 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2997383562655399343, guid: 82a633a963007f34fbe13864d983b0ac,
-    type: 3}
-  m_PrefabInstance: {fileID: 4880514082969171944}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7648178467648850497 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2997383562655399337, guid: 82a633a963007f34fbe13864d983b0ac,
@@ -2783,12 +2759,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 82a633a963007f34fbe13864d983b0ac, type: 3}
---- !u!1 &7080197360818410127 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2997383562655399343, guid: 82a633a963007f34fbe13864d983b0ac,
-    type: 3}
-  m_PrefabInstance: {fileID: 5465454068423339808}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7080197360818410121 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2997383562655399337, guid: 82a633a963007f34fbe13864d983b0ac,
@@ -2864,12 +2834,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 82a633a963007f34fbe13864d983b0ac, type: 3}
---- !u!1 &5206940156438729583 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2997383562655399343, guid: 82a633a963007f34fbe13864d983b0ac,
-    type: 3}
-  m_PrefabInstance: {fileID: 7050978971123723968}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5206940156438729577 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2997383562655399337, guid: 82a633a963007f34fbe13864d983b0ac,
@@ -3122,15 +3086,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 030030e08ad43d04bbe9bd1cba8cfc4f, type: 3}
---- !u!4 &8335920839580244903 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 435568159712631666, guid: 030030e08ad43d04bbe9bd1cba8cfc4f,
-    type: 3}
-  m_PrefabInstance: {fileID: 8476989701688950997}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &8335920839580244900 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 435568159712631665, guid: 030030e08ad43d04bbe9bd1cba8cfc4f,
+    type: 3}
+  m_PrefabInstance: {fileID: 8476989701688950997}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8335920839580244903 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 435568159712631666, guid: 030030e08ad43d04bbe9bd1cba8cfc4f,
     type: 3}
   m_PrefabInstance: {fileID: 8476989701688950997}
   m_PrefabAsset: {fileID: 0}

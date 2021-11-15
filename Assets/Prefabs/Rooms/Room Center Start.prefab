@@ -2941,7 +2941,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2389983124341840915}
   - component: {fileID: 6152293785958453064}
-  - component: {fileID: 1583658789086195373}
   - component: {fileID: 160979224410617292}
   - component: {fileID: 2068904286168848114}
   m_Layer: 0
@@ -2950,7 +2949,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2389983124341840915
 Transform:
   m_ObjectHideFlags: 0
@@ -2993,21 +2992,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1583658789086195373
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8787808806647471697}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a142bc51cf5d3104d81a0e2ed13dc118, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  openWhenEnemiesCleared: 0
-  enemies: []
-  theRoom: {fileID: 0}
 --- !u!1839735485 &160979224410617292
 Tilemap:
   m_ObjectHideFlags: 0

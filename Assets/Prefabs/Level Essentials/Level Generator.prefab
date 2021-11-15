@@ -80,7 +80,7 @@ MonoBehaviour:
   endColor: {r: 1, g: 0.005390823, b: 0.005390823, a: 0}
   shopColor: {r: 0.9897475, g: 1, b: 0, a: 0}
   gunRoomColor: {r: 0, g: 0, b: 0, a: 0}
-  distanceToEnd: 25
+  distanceToEnd: 9
   includeShop: 1
   minDistanceToShop: 2
   maxDistanceToShop: 5
@@ -103,7 +103,7 @@ MonoBehaviour:
       type: 3}
     singleLeft: {fileID: 3024304762235222971, guid: b6e030b6b290f2d429403dee58192a35,
       type: 3}
-    doubleUpDown: {fileID: 4054686223633731153, guid: d4369c7be68cad34cbcdf14dd0dcf570,
+    doubleUpDown: {fileID: 3440836115411620179, guid: 7ab4dc4a0870708409d6b77fb5529af7,
       type: 3}
     doubleLeftRight: {fileID: 6202720024578875227, guid: ac567529663dbc14d9ac0cebb8b62c2b,
       type: 3}
@@ -125,17 +125,17 @@ MonoBehaviour:
       type: 3}
     fourway: {fileID: 8585341212870893135, guid: 0d6bc8b6dba1655449455754bb859469,
       type: 3}
-  centerStart: {fileID: 677630065370866459, guid: ab13d3016d8b0984f910a1ddbcee2b14,
+  centerStart: {fileID: 7318095554802058378, guid: ca12729d29ad48a428d23bf03ea0fdc7,
     type: 3}
-  centerEnd: {fileID: 309349926074399783, guid: 4bbd11db4f874b14bbf75c3d827f1366,
+  centerEnd: {fileID: 7662697385823929400, guid: c01bd1a20b1b0f44681ee872e3897d30,
     type: 3}
   centerShop: {fileID: 939567722135023634, guid: 624d3019b89228f45a89e149f2ba4ec5,
     type: 3}
   centerGunRoom: {fileID: 5681668314800519854, guid: 9e504fa3c4b27134fab07a7826c24b00,
     type: 3}
   potentialCenters:
-  - {fileID: 1583658789086195373, guid: 8cf4839623cbed74d991c03bc76c8c42, type: 3}
-  - {fileID: 677630065370866459, guid: ab13d3016d8b0984f910a1ddbcee2b14, type: 3}
-  - {fileID: 309349926074399783, guid: 4bbd11db4f874b14bbf75c3d827f1366, type: 3}
+  - {fileID: 7662697385823929400, guid: c01bd1a20b1b0f44681ee872e3897d30, type: 3}
+  - {fileID: 8826453299077955431, guid: 34297c70c4c70a140a4dac968285f9a8, type: 3}
+  - {fileID: 7662697385823929400, guid: c01bd1a20b1b0f44681ee872e3897d30, type: 3}
   - {fileID: 939567722135023634, guid: 624d3019b89228f45a89e149f2ba4ec5, type: 3}
   - {fileID: 5681668314800519854, guid: 9e504fa3c4b27134fab07a7826c24b00, type: 3}

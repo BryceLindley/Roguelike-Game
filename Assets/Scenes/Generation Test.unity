@@ -274,6 +274,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 963646978, guid: e8fa8a7610b12a74da8758040a19d6dc, type: 3}
+      propertyPath: centerEnd
+      value: 
+      objectReference: {fileID: 890166566057730115, guid: d56aa9660dd0d6e4eaff38b4a1eeaa7f,
+        type: 3}
+    - target: {fileID: 963646978, guid: e8fa8a7610b12a74da8758040a19d6dc, type: 3}
+      propertyPath: includeShop
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 963646978, guid: e8fa8a7610b12a74da8758040a19d6dc, type: 3}
+      propertyPath: distanceToEnd
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 963646978, guid: e8fa8a7610b12a74da8758040a19d6dc, type: 3}
+      propertyPath: includeGunRoom
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 963646978, guid: e8fa8a7610b12a74da8758040a19d6dc, type: 3}
+      propertyPath: potentialCenters.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 963646978, guid: e8fa8a7610b12a74da8758040a19d6dc, type: 3}
+      propertyPath: potentialCenters.Array.data[2]
+      value: 
+      objectReference: {fileID: 939567722135023634, guid: 624d3019b89228f45a89e149f2ba4ec5,
+        type: 3}
+    - target: {fileID: 963646978, guid: e8fa8a7610b12a74da8758040a19d6dc, type: 3}
+      propertyPath: potentialCenters.Array.data[3]
+      value: 
+      objectReference: {fileID: 5681668314800519854, guid: 9e504fa3c4b27134fab07a7826c24b00,
+        type: 3}
     - target: {fileID: 3084794441909352220, guid: e8fa8a7610b12a74da8758040a19d6dc,
         type: 3}
       propertyPath: m_Name
